@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WaterbillApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Starting System");
 		SpringApplication.run(WaterbillApplication.class, args);
 	}
 
