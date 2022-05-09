@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="loginStyle.css" />
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <div class="login_container">
+    <form action="index.html" class="form_container">
+      <img  class="logo_img" src="logo.jpg" alt="logo_image">
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Select</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="help.html">User</a>
+            <a href="#">See Profile</a>
+            <a href="#">Setting</a>
+            <a href="#">Help</a>
+            <a href="#">Logout</a>
+        </div>
+    </div>
+
+      <div class="login">
+        <input type="text" name="username" id="username" placeholder="Unername" required />
+      </div>
+      <div class="login">
+        <input type="password" name="password" id="password" placeholder="Password" required />
+      </div>
+      <div class="login_button">
+        <button type="submit" class="login_btn btn_btn" onclick="">Login</button>
+        <h4 class="or">or</h4>
+        <button type="submit" class="login_btn btn_btn" onclick="">Create new account</button>
+      </div>
+    </form>
+    <div class="forget_pass">
+      <h3 >Forget Password? <a href="#">Change Password</a> </h3>
+    </div>
+  </div>
+</body>
+
+</html>
